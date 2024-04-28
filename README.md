@@ -1,4 +1,4 @@
-# ESTRUTURA
+# Estrutura
 
 ```
 Geração de Chaves: O método elliptic.generateKey('P-256') é usado para criar um par de chaves pública e privada.
@@ -17,7 +17,7 @@ Verificação: A função verify() verifica se a assinatura é válida usando a 
 JSON Web Key (JWK) é um formato de dados que representa uma chave criptográfica em formato JSON. Ele é utilizado principalmente em tecnologias que envolvem a comunicação de chaves por meios digitais, como JWT (JSON Web Tokens) e JWS (JSON Web Signatures). Um JWK inclui detalhes como o tipo de chave (kty), o algoritmo de curva elíptica (crv para chaves EC), além das coordenadas do ponto da curva (x e y para chaves públicas) e o segredo privado (d para chaves privadas). Este formato facilita o uso, armazenamento e troca de chaves em sistemas baseados em padrões web.
 ```
 
-# CURVAS
+# Curvas
 
 ```
 P-256 (secp256r1)
